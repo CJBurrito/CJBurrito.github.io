@@ -1,4 +1,17 @@
-.bgimg { 
-    background: url('https://en.wikipedia.org/wiki/Los_Angeles_County,_California#/media/File:20190616154621!Echo_Park_Lake_with_Downtown_Los_Angeles_Skyline.jpg')center center; 
-    background-size:cover; 
-}
+/* .hero.has-background {
+    position: relative;
+    overflow: hidden;
+  }
+
+.hero-background {
+    position: absolute;
+    object-fit: cover;
+    object-position: center center;
+    width: 100%;
+    height: 100%;
+  }  non working SASS */
+
+  body {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/3/32/20190616154621%21Echo_Park_Lake_with_Downtown_Los_Angeles_Skyline.jpg");
+    background-color: #cccccc;
+   }
