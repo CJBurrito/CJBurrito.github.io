@@ -36,3 +36,23 @@
     transform: rotate(360deg);
   }
 }
+
+@font-face {
+  font-family: "dellTaco";
+  src: url("./fonts/Dellmonte\ Sans.otf")
+}
+
+@font-face {
+  font-family: "burgerKing";
+  src: url("./fonts/CMGSans-BoldCAPS.ttf")
+}
+
+@font-face {
+  font-family: "mcDonalds";
+  src: url("./fonts/CMGSans-Light.ttf")
+}
+
+@font-face {
+  font-family: "arbys";
+  src: url("./fonts/Quentin.ttf")
+}

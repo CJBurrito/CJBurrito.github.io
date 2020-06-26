@@ -1,19 +1,25 @@
 import React from "react";
 import 'materialize-css';
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
+import logo from './christian logo.png'
+import './style.css';
 
 function navbar() {
     return (
-        <nav>
+        <nav className='amber darken-1'>
         <div className="nav-wrapper">
-          <a Link to="/main" className="brand-logo center transparent">Logo</a>
+          <Link to="/" className="brand-logo center "><img className='logo' src={logo}></img></Link>
           <ul id="nav-mobile" className="left hide-on-med-and-down">
-            {(<Link to="/Portfolio" className="list">Portfolio </Link>)}
-            <li><a href="badges.html">Components</a></li>
-            <li><a href="collapsible.html">JavaScript</a></li>
+            <li><Link to="/Portfolio" className="list navTitle">portfolio </Link></li>
+            <li><Link to="/linkedIn" className="list navTitle">linkedin </Link></li>
+            <li><Link to="/github" className="list navTitle">gitHub </Link></li>
           </ul>
+          <ul id="nav-mobile" className="right hide-on-med-and-down">
+            <li ><a className="navTitle">Resume</a></li>
+            </ul>
         </div>
       </nav>
+      
     )
 };
 

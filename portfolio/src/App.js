@@ -11,6 +11,14 @@ function App() {
         <Switch>
           <Route exact path="/" component={Main} />
           <Route exact path="/Portfolio" component={Porfolio} />
+          <Route path='/github' component={() => {
+            window.location.href = 'https://github.com/CJBurrito';
+            return null;
+          }} />
+          <Route path='/linkedIn' component={() => {
+            window.location.href = 'https://www.linkedin.com/in/christian-balentine-610189126/';
+            return null;
+          }} />
         </Switch>
       </div>
     </Router>
